@@ -40,8 +40,8 @@ public class MainActivity extends AppCompatActivity {
         input.setHint("Enter name");
 
         new AlertDialog.Builder(MainActivity.this)
-                .setTitle("Add Stopwatch")
-                .setMessage("Please enter a name for your new stopwatch.")
+                .setTitle("Add Activity")
+                .setMessage("Please enter a activity name.")
                 .setView(input)
                 .setPositiveButton("Add", new DialogInterface.OnClickListener() {
                     @Override
